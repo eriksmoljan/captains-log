@@ -1,0 +1,12 @@
+Python:
+
+1. Went through about 55% of https://learnpython.com/blog/custom-class-python/, where I:
+1.1. Created a class with:
+1.1.1. A class attribute
+1.1.2. Two instance attributes
+1.1.3. Two instance methods
+1.2. Created two instances of the Task class
+1.3. Invoked one instance method per instance
+1.4. Found out about previously mentioned terms
+
+Total time: ~75 min
