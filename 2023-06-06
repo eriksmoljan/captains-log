@@ -1,0 +1,7 @@
+Python:
+
+1. Class methods can't be used to modify or access instances nor change class state, they can only be used by other instance methods or objects. Also, we don't pass instances to class methods
+2. Had issues with implementing and understanding static methods, tried to implement two of them, failed. Converted them to instance methods with help of https://stackoverflow.com/a/37739644 . Instance attributes can be changed in any other instance method, unlike class and static methods. 'Self' means 'do stuff on the instance you invoked the method with'.
+3. Got to about 70% of https://learnpython.com/blog/custom-class-python/ , read about class and static methods.
+
+Total time: 60 min
