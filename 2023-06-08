@@ -1,0 +1,23 @@
+Python:
+
+1. The 'in' keyword - used to check for presence in an iterable object (if used by itself, returns a boolean) and to loop through them (if used in a loop), e.g.
+
+sentence = "The quick brown fox jumped over the lazy dog."
+characters = {}
+
+for character in sentence:
+    characters[character] = characters.get(character, 0) + 1 
+
+sentence is a string, characters is a dictionary and for every element of the sentence string (string is being iterated over with letters), "character"-th index of the characters dict will be incremented by 1, starting from 0 if there isn't anything in that "character"-th index (so 0+1=1 after the first occurence of the letter in the sentence string).
+
+https://stackoverflow.com/q/2068349
+
+2. What's the arrow operator (->) in Python - https://stackoverflow.com/a/14379780
+
+Development:
+
+1. What's an informal interface in Python - https://realpython.com/python-interface/#informal-interfaces
+2. Skimmed through https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/ -> as I don't develop professionally yet, only some of the stuff is applicable, as Step 8 for example.
+3. Started reading about duck typing.
+
+Total time: 60 min
