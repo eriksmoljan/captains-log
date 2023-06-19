@@ -1,0 +1,28 @@
+Development:
+
+1. Thought and researched about app design - first idea was to try to keep data in RAM only (just instantiate classes) to learn a bit how to instantiate and work with multiple objects in code, but I figured it would be better (read: easier) just to use a DB from the get-go, as I'll want persistence soon enough and rewriting the whole app into using DB instead of classes to store data would probably be "a waste of time" (read: CBA). In theory, what I'd need at this moment to store data via classes would probably be a list of dictionaries (I might even do it in the end, just to learn).
+2. Found a way to disable the sidebar on SO, added the script to Greasemonkey in FF. (https://gist.github.com/machavity/420197ff9108e0b757c9bbb7d487f965)
+3. Used Vicuna-13B model chat assistant (on https://chat.lmsys.org/) to try explain the code from https://stackoverflow.com/a/46323017 - it was almost entirely correct, however it told me that str() returns an integer value instead of a string.
+
+Its answer:
+
+Certainly!
+
+This Python code is using a for loop to iterate over a list of nodes called nodes_list.
+
+Within the loop, a new instance of the defaultdict class is created and assigned to the variable node_dict. The defaultdict class is a subtype of the dict class in Python, which means it is a dictionary that has a default value assigned to any key that is not already present in the dictionary.
+
+The line node_dict["data"]["id"] = str(n) is then used to add a new key-value pair to the node_dict dictionary. Specifically, it sets the value of the key "data"["id"] to the integer value of the current node in the nodes_list (which is being iterated over by the for loop).
+
+Finally, the node_dict dictionary is added to a list called ultimate_list using the append() method.
+
+In summary, this code is used to create a new dictionary for each node in the nodes_list, set a default value for the "data"["id"] key to the node's integer value, and append the dictionary to a list. The resulting ultimate_list will contain a dictionary for each node in nodes_list.
+
+
+Sources for 1):
+https://stackoverflow.com/questions/21598872/how-to-create-multiple-class-objects-with-a-loop-in-python
+https://nedbatchelder.com/blog/201112/keep_data_out_of_your_variable_names.html
+https://stackoverflow.com/questions/22447867/how-to-store-information-database-vs-data-structure-vs-log-files
+https://stackoverflow.com/questions/7067798/how-to-decide-between-sqlite-database-vs-in-memory-usage
+
+Total time: 55 min (will do 5+ more mins tomorrow)
