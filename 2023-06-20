@@ -1,0 +1,11 @@
+Bash:
+
+1. Started developing a cellphone backup script. Defined most source dirs.
+
+Sources:
+
+https://stackoverflow.com/questions/5265702/how-to-get-full-path-of-a-file
+https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Shell-Parameter-Expansion
+https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Arrays
+
+Total time: 115 min
