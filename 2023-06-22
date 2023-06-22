@@ -1,0 +1,9 @@
+Bash:
+
+1. Worked further on the cellphone backup script.
+2. Learned that brace expansion happens before variable expansion.
+3. Found out about eval().
+4. Stuff in single quotes is escaped by "stopping" the quotes. https://stackoverflow.com/a/13802438
+5. Stuff in double quotes is escaped by backslashes. Quoting in general: https://stackoverflow.com/a/20053121
+
+Total time: 120 min
