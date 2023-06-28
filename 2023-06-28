@@ -2,9 +2,10 @@ Bash:
 
 1. Probably finished the cellphone backup script's v1.0. Test run went through, doing a full run right now, will report results tomorrow.
 EDIT: I'm stoked this works so reporting: first full run went with no issues, just few minor fixes were needed which were done right away so I'd say this would be v1.0.
+EDIT2: Added another TODO for an edge case.
 
 System administration:
 
 1. Read through https://serverfault.com/questions/212269/tips-for-securing-a-lamp-server + a few top comments, didn't visit links though.
 
-Total time: 130 minutes
+Total time: 135 minutes
