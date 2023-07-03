@@ -1,0 +1,9 @@
+Bash:
+
+1. Added user input and an option to pick type of backup method into the cell_backup script.
+
+Git:
+
+1. Had a major screw up, Ilija and Ana came to rescue. Added a file I didn't want on a detached HEAD so I had to git reset --soft HEAD~1.
+
+Total time: 90 min
