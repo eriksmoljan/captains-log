@@ -1,0 +1,17 @@
+DevOps:
+
+1. Continuing through DevOps roadmap (https://en.wikipedia.org/wiki/Command-line_interface).
+2. Learned the difference between shell, console and terminal.
+
+A shell is a type of program that processes commands entered for the OS (i.e. provides a usually text interface to the OS (Bash, zsh, ksh, ...), although strictly speaking shell is any program that is provides a user interface).
+A terminal is a program that "hosts" a shell, it used to be a piece of HW (usually consisting of a KB and a monitor) that connected to a mainframe.
+A console is usually a physical terminal but nowadays most OSs use a 'virtual console' which is embedded in the OS itself and provides a mean to input low-level commands to the OS.
+https://superuser.com/questions/144666/what-is-the-difference-between-shell-console-and-terminal
+
+3. Teleprinters (two-way mechanical communicating devices) were used for communication. These were replaced by a "glass TTY", just a KB and screen emulating the teleprinter. TTYs then evolved to terminal emulators - programs that used the serial ports. After terminal emulators came shells, which are present today as well.
+4. Decided on a PS1 var value.
+5. Note that general purpose OSs are not the only thing that has a CLI - think of MATLAB/Octave, but also network equipment.
+6. To recapitulate:
+A simple CLI will display a prompt, accept a "command line" typed by the user terminated by the Enter key, then execute the specified command and provide textual display of results or error messages. Advanced CLIs will validate, interpret and parameter-expand the command line before executing the specified command, and optionally capture or redirect its output. 
+
+Total time: 60 min
